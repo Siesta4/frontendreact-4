@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+
+body{
+    font-family: 'Aleo', serif;
+}
+  
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+  
+  
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    .logo{
+        width: 250px;
+        height: auto;
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        column-gap: 16px;
+        a{
+            text-decoration: none;
+            font-family: 'Aleo';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+
+
+            color: #393939;
+        }
+    }
+}
+
+
+.maincontent{
+    margin-top: 50px;
+    height: 80vh;
+    .refresh{
+        width: 30px;
+    }
+    .number{
+        font-size: 288px;
+        color: #393939;
+        display: flex;
+        justify-content: center;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 25px;
+    }
+    .button__plus{
+        color: white;
+        font-size: 24px;
+        border-radius: 50%;
+        background-color: #0FC50B;
+        border: none;
+        padding: 15px 22px;
+    }
+    .button__refresh{
+        border-color: #e5e5e5;
+        border-radius: 100%;
+        border: none;
+        padding: 13px 15px;
+    }
+    .button__minus{
+        font-size: 24px;
+        color: white;
+        border-radius: 50%;
+        background-color: #F74C4C;
+        border: none;
+        padding: 15px 25px;
+    }
+}
+
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 250px 425px 145px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    .footerlogo{
+        margin-right: 50px;
+    }
+    .copyright{
+        color: gray;
+    }
+    .footer__nav{
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+        gap: 16px;
+        margin-right: 250px;
+        .footer__nav__link{
+            text-decoration: none;
+            color: gray;
+            font-size: 16px;
+            transition: .3s;
+        }
+    }
+}
+
+
+
+
+
